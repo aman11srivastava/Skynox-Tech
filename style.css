@@ -138,15 +138,23 @@ img{
       margin-left: -20%;
   }
 
-
-  .text-wrapper h1{
-      text-align: center;
+  #boxes{
+    font-weight: bolder;
+    padding-left: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-left: -130px;
   }
 
   #box{
-    background-color: maroon;
+    background-color:orangered;
     font-weight: bolder;
-    padding-top: 20px;
+    color: white;
+    padding-bottom: 5px;
+    margin-top: -10px;
+    width: 95px;
+    padding-left: 20px;
+    border-radius: 20px;
     margin-left: -130px;
   }
 
@@ -157,9 +165,11 @@ img{
       margin-left: -130px;
       text-align: justify;
       font-size: 1.2rem;
+      
   }
 
   .p-box-one{
+      width: inherit;
       background-color: maroon;
   }
 
@@ -234,4 +244,64 @@ img{
 
 /* THIRD COLUMN 2 SIDE BOXES  */
 
-/* BOX 1 */
+.content-wrapper-side{
+    width: 100px;
+    margin: 4% 10% 5% 10%;
+}
+
+.content-wrapper-side img{
+    width: 200px;
+    height: 200px;
+}
+
+.text-wrapper-side{
+    width: 50px;
+    position: relative;
+    margin-top: -90%;
+    margin-left: -20%;
+}
+
+#boxes-side{
+  font-weight: bolder;
+  padding-left: 30px;
+  border-radius: 20px;
+  padding-top: 20px;
+  margin-left: -130px;
+}
+
+#box-side{
+  background-color:orangered;
+  font-weight: bolder;
+  color: white;
+  padding-bottom: 5px;
+  margin-top: -10px;
+  width: 95px;
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-left: -130px;
+}
+
+#bottom-side{
+    color:wheat   ;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-left: -130px;
+    text-align: justify;
+    font-size: 1.2rem;
+    
+}
+
+.p-box-one-side{
+    width: inherit;
+    background-color: maroon;
+}
+
+.p-box-two-side{
+    background-color: darkslategrey;
+}
+
+.box-small-one-side{
+    background-color: maroon;
+    height: 30px;
+    width: 30px;
+}
