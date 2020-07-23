@@ -194,6 +194,9 @@ img{
       width: 30px;
   }
 
+  /* THIR COLUMN TOP BOX */
+
+
 
   /* Third Column */
 
@@ -228,6 +231,8 @@ img{
 
 #box-new{
     width: 200px;
+    padding-top: 4px;
+    padding-left: 17px;
     color: mediumblue;
     font-weight: bolder;
 }
@@ -257,7 +262,7 @@ img{
 .text-wrapper-side{
     width: 50px;
     position: relative;
-    margin-top: -90%;
+    /* margin-top: -90%; */
     margin-left: -20%;
 }
 
@@ -275,24 +280,24 @@ img{
   color: white;
   padding-bottom: 5px;
   margin-top: -10px;
-  width: 95px;
+  width: 80px;
   padding-left: 20px;
   border-radius: 20px;
-  margin-left: -130px;
+  margin-left: -115px;
 }
 
 #bottom-side{
     color:wheat   ;
     font-weight: bolder;
-    margin-top: 100px;
-    margin-left: -130px;
+    margin-top: 5px;
+    margin-left: -115px;
     text-align: justify;
     font-size: 1.2rem;
     
 }
 
 .p-box-one-side{
-    width: inherit;
+    widows: 30px;
     background-color: maroon;
 }
 
@@ -305,3 +310,13 @@ img{
     height: 30px;
     width: 30px;
 }
+
+
+#boxes-bottom{
+    font-weight: bold;
+    padding-left: 70px;
+    border-radius: 20px;
+    padding-top: 0px;
+    width: 1000px;
+    margin-left: -70px;
+  }
